@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+  --bs-gutter-x: 0rem !important;
+}
+body {
+  background-image: url("./img/background.png");
+}
+
+.navbar {
+  padding: 8px;
+  background-color: rgb(236, 224, 203);
+}
+
+#logo img {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+}
+#logo2 {
+  color: rgb(128, 115, 92);
+  font-family: "Rammetto One", cursive;
+}
+
+#navbar form button {
+  background-color: rgb(123, 142, 40);
+  color: rgb(236, 224, 203);
+}
+
+.back {
+  background-image: 
+    url("./img/bg.gif") !important;
+    background-size: cover;
+  
+}
+
+#carouselExampleCaptions {
+  width: 70%;
+  margin: auto;
+  
+  
+}
+
+#about {
+  height: 1500px;
+  width: 100%;
+  /* background-color: rgba(236, 224, 203, 0.584); */
+  background-image: linear-gradient(
+      to bottom,
+      #fefcfe,
+      #fef9fb,
+      #fef6f7ae,
+      #fdf4f27d,
+      #fbf2ed33,
+      #f9f0e92c,
+      #f7eee434,
+      #f4ece034,
+      #f2e9db5d,
+      #f0e6d574,
+      #eee3d0b6,
+      #ece0cb
+    ),
+    url("https://img.freepik.com/free-photo/dried-lily-leaf-textured-background-design_53876-102386.jpg?w=1380&t=st=1681174516~exp=1681175116~hmac=0626f17b9421c160069d8002d5550b2b7462b5633f96d4da786833d003ab65ba");
+  color: rgb(128, 115, 92);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70%;
+}
+
+#about .content {
+  padding-top: 150px;
+  margin-left: 50px;
+}
+
+#about .content h3 {
+  font-size: 50px;
+}
+
+#about .content p {
+  width: 60%;
+  font-weight: 900;
+}
+
+#btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(123, 142, 40);
+  color: rgb(236, 224, 203);
+}
+
+#btn:hover {
+  background-color: rgba(123, 142, 40, 0.562);
+  transition: 0.5s;
+}
+
+#top-cards {
+  width: 100%;
+  background-image: url("./img/background.png");
+  margin-bottom: 200px;
+}
+
+.heading {
+  color: rgb(128, 115, 92);
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 50px;
+}
+
+#top-cards .container {
+  margin-top: 100px;
+}
+
+#top-cards .card {
+  background-repeat: 10px;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin-right: 30px;
+  margin-bottom: 50px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  width: 400px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+#top-cards .card img {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  height: 300px;
+  object-fit: cover;
+}
+
+#top-cards .card:hover {
+  transform: translateY(-20px);
+}
+
+.display-4 {
+  color: rgb(128, 115, 92);
+  font-weight: 700;
+}
+#x {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+#x p {
+  margin-top: 30px;
+  color: rgb(128, 115, 92);
+  background-color: rgb(246, 240, 231);
+}
+#crew{
+  margin-bottom: 200px;
+}
+#person {
+  padding-left: 30px;
+}
+
+#person img:hover {
+  border-color: rgb(123, 142, 40);
+}
+
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}
+
+.ok {
+  margin-left: 46%;
+  margin-bottom: 500px;
+}
+.ok p {
+  padding-bottom: 5px;
+  color: rgb(128, 115, 92);
+  background-color: rgb(246, 240, 231);
+}
+.ok img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#contact {
+  background-color: rgb(236, 224, 203) !important;
+  color: rgb(128, 115, 92) !important;
+}
+
+#contact span {
+  padding-left: 300px;
+}
+
+#logos {
+  padding-right: 300px;
+}
+hr {
+ display: none;
+}
+
+.nav-link {
+  border-radius: 15px;
+}
+.nav-link:hover {
+  border-radius: 15px;
+  background-color: rgb(226, 214, 194);
+}
+.nav-item-active {
+  background-color: rgba(123, 142, 40, 0.49);
+  border-radius: 15px;
+}
+
+.top{
+  position: fixed;
+  bottom: 30px;
+  right: 20px;
+  line-height: 30px;
+  padding: 0 20px;
+  
+  
+  color:rgb(123, 142, 40);
+  text-decoration: none;
+}
+#foti{
+  box-shadow: 0px 0px 35px 14px rgba(255,255,255,0.75) inset !important;
+-webkit-box-shadow: 0px 0px 35px 14px rgba(255,255,255,0.75) inset !important;
+-moz-box-shadow: 0px 0px 35px 14px rgba(255,255,255,0.75) inset !important;
+}
+.carousel-item h5,p{
+  font-weight: 1000  !important;
+  color: black;
+}
